@@ -1,0 +1,7 @@
+20:54:55 **** Incremental Build of configuration Debug for project Clase6_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -ftest-coverage -fprofile-arcs -Wall -c -fmessage-length=0 -o "src\\Clase6_2.o" "..\\src\\Clase6_2.c" 
+gcc -ftest-coverage -fprofile-arcs -o Clase6_2.exe "src\\Clase6_2.o" 
+
+20:54:55 Build Finished. 0 errors, 0 warnings. (took 554ms)
+

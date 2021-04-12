@@ -1,0 +1,142 @@
+21:53:56 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+..\src\Clase8.c: In function 'main':
+..\src\Clase8.c:35:6: warning: implicit declaration of function 'validarQueSeaNumero' [-Wimplicit-function-declaration]
+   35 |  if (validarQueSeaNumero (texto)==1)
+      |      ^~~~~~~~~~~~~~~~~~~
+..\src\Clase8.c: In function 'validarQueSeaNumero':
+..\src\Clase8.c:60:11: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   60 |     texto = atoi(texto);
+      |           ^
+gcc -o Clase8.exe "src\\Clase8.o" 
+21:54:25 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+..\src\Clase8.c: In function 'main':
+..\src\Clase8.c:35:6: warning: implicit declaration of function 'validarQueSeaNumero' [-Wimplicit-function-declaration]
+   35 |  if (validarQueSeaNumero (texto)==1)
+      |      ^~~~~~~~~~~~~~~~~~~
+gcc -o Clase8.exe "src\\Clase8.o" 
+21:55:04 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+gcc -o Clase8.exe "src\\Clase8.o" 
+Info: Nothing to build for Clase8
+21:59:05 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+gcc -o Clase8.exe "src\\Clase8.o" 
+22:05:23 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+..\src\Clase8.c: In function 'validarQueSeaNumero':
+..\src\Clase8.c:56:19: warning: multi-character character constant [-Wmultichar]
+   56 |   if (texto [i] > '47'  && texto[i]< '58' )
+      |                   ^~~~
+..\src\Clase8.c:56:38: warning: multi-character character constant [-Wmultichar]
+   56 |   if (texto [i] > '47'  && texto[i]< '58' )
+      |                                      ^~~~
+gcc -o Clase8.exe "src\\Clase8.o" 
+22:06:01 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+gcc -o Clase8.exe "src\\Clase8.o" 
+Info: Nothing to build for Clase8
+Info: Nothing to build for Clase8
+22:16:22 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+gcc -o Clase8.exe "src\\Clase8.o" 
+Info: Nothing to build for Clase8
+22:18:12 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+gcc -o Clase8.exe "src\\Clase8.o" 
+Info: Nothing to build for Clase8
+22:19:44 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+..\src\Clase8.c: In function 'main':
+..\src\Clase8.c:45:25: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   45 |  printf("\nIngresaste: %s, %d", saldoBanco);
+      |                        ~^       ~~~~~~~~~~
+      |                         |       |
+      |                         char *  int
+      |                        %d
+..\src\Clase8.c:45:29: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   45 |  printf("\nIngresaste: %s, %d", saldoBanco);
+      |                            ~^
+      |                             |
+      |                             int
+..\src\Clase8.c:40:6: warning: unused variable 'i' [-Wunused-variable]
+   40 |  int i;
+      |      ^
+gcc -o Clase8.exe "src\\Clase8.o" 
+22:19:58 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+..\src\Clase8.c: In function 'main':
+..\src\Clase8.c:45:25: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   45 |  printf("\nIngresaste: %s, %d", saldoBanco);
+      |                        ~^       ~~~~~~~~~~
+      |                         |       |
+      |                         char *  int
+      |                        %d
+..\src\Clase8.c:45:29: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   45 |  printf("\nIngresaste: %s, %d", saldoBanco);
+      |                            ~^
+      |                             |
+      |                             int
+gcc -o Clase8.exe "src\\Clase8.o" 
+22:20:13 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+..\src\Clase8.c: In function 'main':
+..\src\Clase8.c:45:25: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   45 |  printf("\nIngresaste: %s, %d", saldoBanco);
+      |                        ~^       ~~~~~~~~~~
+      |                         |       |
+      |                         char *  int
+      |                        %d
+..\src\Clase8.c:45:29: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   45 |  printf("\nIngresaste: %s, %d", saldoBanco);
+      |                            ~^
+      |                             |
+      |                             int
+gcc -o Clase8.exe "src\\Clase8.o" 
+22:20:25 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+gcc -o Clase8.exe "src\\Clase8.o" 
+Info: Nothing to build for Clase8
+Info: Nothing to build for Clase8
+22:22:18 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+gcc -o Clase8.exe "src\\Clase8.o" 
+22:28:07 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+..\src\Clase8.c: In function 'main':
+..\src\Clase8.c:36:25: error: lvalue required as left operand of assignment
+   36 |   texto[strlen(texto)-1 = 0];
+      |                         ^
+22:28:25 **** Incremental Build of configuration Debug for project Clase8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase8.o" "..\\src\\Clase8.c" 
+gcc -o Clase8.exe "src\\Clase8.o" 
+Info: Nothing to build for Clase8
+Info: Nothing to build for Clase8
+12:27:59 **** Rebuild of configuration Debug for project Clase7_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase7_2.o" "..\\src\\Clase7_2.c" 
+gcc -o Clase7_2.exe "src\\Clase7_2.o" 
+12:28:18 **** Rebuild of configuration Debug for project Clase7_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase7_1.o" "..\\src\\Clase7_1.c" 
+gcc -o Clase7_1.exe "src\\Clase7_1.o" 
+Info: Nothing to build for Clase7_1
+Info: Nothing to build for Clase7_2
+Info: Nothing to build for Clase7_2
+Info: Nothing to build for Clase7_2

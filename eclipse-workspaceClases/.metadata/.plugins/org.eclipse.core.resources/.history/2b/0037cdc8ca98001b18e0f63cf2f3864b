@@ -1,0 +1,43 @@
+/*
+ ============================================================================
+ Name        : Clase7.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+
+
+
+// sizeof(arrayTexto) : la variable que guarda la direc de memoria de cada simbolo
+//  \0 -> es el numero 0
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	char texto [11];
+	int saldoBanco;
+	//scanf ("%s", texto); no va y gets tampoco porque no le podemos pasar el limite del array
+
+	fgets (texto, 11, stdin);//array, tamaño, de donde va a leer
+
+	saldoBanco=atoi (texto);
+	int i;
+	for (i=0; i<11; i++)
+	{
+		printf ("\n%d) %d-%c", i, texto [i], texto [i]);
+	}
+	printf("\nIngresaste: %s", texto);
+
+
+
+	return EXIT_SUCCESS;
+}

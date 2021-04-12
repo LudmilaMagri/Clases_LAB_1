@@ -1,0 +1,55 @@
+/*
+ ============================================================================
+ Name        : Clase6_2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#define NUMEROS 5
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	int arrayNum [NUMEROS] = {9, 15, 18, 21, 5};
+
+
+	return EXIT_SUCCESS;
+}
+
+int ordenarArray (int* pArray, int* pArrayMin, int limite)
+{
+	int i;
+	int numMin;
+	int auxiliar;
+	int flag = 0;
+	int nuevoLimite = limite-1;
+
+	if (pArray != NULL && limite >= 0)
+	{
+		for (i=0; i<nuevoLimite; i++)
+		{
+			numMin = pArrayMin[i];
+			flag = 0;
+
+			if (i != indiceMin)
+			{
+				if (pArrayMin [i] < numMin)
+				{
+					numMin = pArrayMin[i];
+					flag = 1;
+				}
+				auxiliar = pArray [i];
+				numMin = pArray [i];
+
+
+
+			}
+		}
+	}
+
+}

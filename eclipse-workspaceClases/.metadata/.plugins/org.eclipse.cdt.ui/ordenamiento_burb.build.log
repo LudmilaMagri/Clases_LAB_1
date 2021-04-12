@@ -1,0 +1,7 @@
+14:36:54 **** Incremental Build of configuration Debug for project ordenamiento_burb ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ordenamiento_burb.o" "..\\src\\ordenamiento_burb.c" 
+gcc -o ordenamiento_burb.exe "src\\ordenamiento_burb.o" 
+
+14:36:55 Build Finished. 0 errors, 0 warnings. (took 574ms)
+

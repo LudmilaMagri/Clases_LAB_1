@@ -1,0 +1,113 @@
+/*
+ ============================================================================
+ Name        : Clase5_1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ main: pedir una cantidad de edades
+ funcion que calcule el maximo, min, promedio,
+ funcion de maximo: int
+
+ */
+
+/*
+ * \brief Imprime a modo DEBUG la informacion de un array de enteros
+ * \param pArray Es el puntero al array a ser ordenado
+ * \param size Es la longitud del array
+ * \return 0 si Ok o -1 para indicar un error
+ * */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "arr.h"
+
+#define CANTIDAD_EDADES 5
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int arrayEdades [CANTIDAD_EDADES] ;
+	float valorPromedioArr;
+	int valorMax;
+	int valorMin;
+
+
+	for (int i=0; i<CANTIDAD_EDADES; i++)
+	{
+		arr_getInt (&arrayEdades[i], "Edad?", "Error", 0, 150, 2); //llenar un arrays, carga secuencial
+		//acumuladorEdades+= arrayEdades[i] ; //lectura secuencial
+	}
+
+	if (arr_getPromedio(arrayEdades, CANTIDAD_EDADES, &valorPromedioArr)== 0)
+	{
+		printf ("\nPromedio: %2.f", valorPromedioArr);
+	}
+	else
+	{
+		printf ("Error");
+	}
+	if (arr_getMaximo(arrayEdades, CANTIDAD_EDADES, &valorMax) == 0)
+	{
+		printf ("\nEl valor maximo es: %d", valorMax);
+	}
+	else
+	{
+		printf ("Error");
+	}
+	if (arr_getMinimo(arrayEdades, CANTIDAD_EDADES, &valorMin)== 0)
+	{
+		printf ("\nEl valor minimo es: %d", valorMin);
+	}
+	else
+	{
+		printf ("Error");
+	}
+
+
+
+	return EXIT_SUCCESS;
+}
+
+
+/*
+ * \brief ordena un array de enteros DESCENDENTE
+ * \param pArray Es el puntero al array a ser ordenado
+ * \param size Es la longitud del array
+ * \return cantidad de iteraciones necesarias para ordenar si Ok o -1 para indicar un error
+ * */
+
+int ordenarArrayInt (int* pArray, int limite)
+{
+	int flagSwap;
+	int i;
+	int contador=0;
+	int retorno;
+	int buffer;
+
+	if (pArray != NULL && limite >= 0)
+	{
+		do
+		{
+			flagSwap=0;
+			for (i=0; i<limite-1;)
+			{
+				if (pArray [i] > pArray [i+1]) //cuando el de la izq es mas grande
+				{
+					flagSwap= 1; //fuerza una nueva vuelta del while
+					buffer = pArray [i];
+					pArray[i] = pArray [i+1];
+					pArrray [i+1] = buffer;
+
+				}
+			}
+
+		}while (flagSwap);
+
+	}
+	return retorno;
+}
+
+

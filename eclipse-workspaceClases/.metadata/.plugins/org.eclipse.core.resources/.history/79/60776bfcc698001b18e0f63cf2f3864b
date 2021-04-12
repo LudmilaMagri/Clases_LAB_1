@@ -1,0 +1,40 @@
+/*
+ ============================================================================
+ Name        : Clase7.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+
+
+
+// sizeof(arrayTexto) : la variable que guarda la direc de memoria de cada simbolo
+//  \0 -> es el numero 0
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	char texto [11];
+	scanf ("%s", texto);
+
+	// texto[0]: h
+	// texto[1]: o
+	// texto[2]: l
+	// texto[3]: a
+	// texto[4]: \0
+	// texto[5...]: basura
+
+	printf("Ingresaste: %s", texto);
+
+
+	return EXIT_SUCCESS;
+}

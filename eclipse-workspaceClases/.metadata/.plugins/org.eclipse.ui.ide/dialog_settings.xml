@@ -21,6 +21,11 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\ludmi\Documents\UTN\TP_Laboratorio_1"/>
+			<item value="C:\Users\ludmi\Documents\UTN\1er_cuatrimestre\Clases_LAB_1\eclipse-workspaceClases\Clase8_4"/>
+			<item value="C:\Users\ludmi\Documents\UTN\1er_cuatrimestre\Clases_LAB_1\eclipse-workspaceClases\Clase8_3"/>
+			<item value="C:\Users\ludmi\Documents\UTN\1er_cuatrimestre\Clases_LAB_1\eclipse-workspaceClases\Clase8_2"/>
+			<item value="C:\Users\ludmi\Documents\UTN\1er_cuatrimestre\Clases_LAB_1\eclipse-workspaceClases\Clase8_1"/>
 			<item value="C:\Users\ludmi\eclipse-workspaceClases\Clase6_2\src"/>
 			<item value="C:\Users\ludmi\eclipse-workspaceClases\Clase3_4"/>
 			<item value="C:\Users\ludmi\eclipse-workspaceClases\Clase3_3"/>
